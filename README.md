@@ -11,16 +11,16 @@ Creamos ej1 en GitHub
   ```
   git clone https://github.com/srlopez/ej1.git
   cd ej1
-  echo "Irun" >ciudades.txt
-  cat ciudades.txt 
+  echo Irun >ciudades.txt
+  type ciudades.txt 
   git add .
   git commit -m "commit 5 ciudades.txt"
-  echo "Donosti" >>ciudades.txt
-  cat ciudades.txt 
+  echo Donosti >>ciudades.txt
+  type ciudades.txt 
   git add .
   git commit -m "commit 7 ciudades.txt"
   git push
-  echo "Rentería" >>ciudades.txt
+  echo Rentería >>ciudades.txt
   git add .
   git commit -m "commit 10 ciudades.txt"
   ```
