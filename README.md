@@ -78,16 +78,20 @@ Vemos las diferencias, editanmos y los sincronizamos
 . Pasos 18..21 y algo más
   ```
   echo "Calgary" >>ciudadesCanada.txt
-  git commit -am "18 Calgary"
+  git add .
+  git commit -m "18 Calgary"
   git tag  Calgary
   echo "Montreal" >>ciudadesCanada.txt
-  git commit -am "19 Montreal"
+  git add .
+  git commit -m "19 Montreal"
   git tag Montreal
   echo "Edmonton" >>ciudadesCanada.txt
-  git commit -am "20 Edmonton"
+  git add .
+  git commit -m "20 Edmonton"
   git tag Edmonton
   echo "Quebec" >>ciudadesCanada.txt
-  git commit -am "21 Quebec"
+  git add .
+  git commit -m "21 Quebec"
   git tag Quebec
   git log --oneline
       a08b043 (HEAD -> master, tag: Quebec) 21 Quebec  #¡ Fijate donde está apuntando HEAD
