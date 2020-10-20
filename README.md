@@ -137,11 +137,11 @@ Vemos las diferencias, editanmos y los sincronizamos
     97fdae3 commit 5 ciudades.txt
   git res
   ```
-Solo cambia el puntero a HEAD (ultimo commit de la rama activa)
-El contenido del archivo en Working está intacto
-`git reset HEAD@{1}` nos devolvería a la situación inicial
-Prueba ejecutarlo varias veces (alterna la HEAD)
-`git reflog` es la ayuda para saber a que HEAD debemos ir.
+Solo cambia el puntero a HEAD (ultimo commit de la rama activa) 
+El contenido del archivo en Working está intacto 
+`git reset HEAD@{1}` nos devolvería a la situación inicial  
+Prueba ejecutarlo varias veces (alterna la HEAD)  
+`git reflog` es la ayuda para saber a que HEAD debemos ir.  
 
   ```
   git reset --mixed Montreal        # Mensaje de que algo se ha modificado.Por lo tanto no está en Stage/Index
