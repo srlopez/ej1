@@ -165,7 +165,7 @@ Prueba ejecutarlo varias veces (alterna la HEAD)
     e50084f commit 7 ciudades.txt
     97fdae3 commit 5 ciudades.txtç
   git diff ciudadesCanada.txt
-    diff --git a/ciudadesCanada.txt b/ciudadesCanada.txt
+    REM diff --git a/ciudadesCanada.txt b/ciudadesCanada.txt
     index df344ea..b37f1ac 100644
     --- a/ciudadesCanada.txt
     +++ b/ciudadesCanada.txt
